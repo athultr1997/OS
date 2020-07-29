@@ -6,7 +6,7 @@
  * 4.19 presents an example of a valid Sudoku puzzle. This project consists of
  * designing a multithreaded application that determineswhether the solution to
  * a Sudoku puzzle is valid.
-*/
+ */
 
 /*
  * Compile as: >> gcc sudoku_solution_validator.c -l pthread
@@ -109,7 +109,6 @@ void *validate_aux(void *args)
 
 		sudoku_val_results[2][3*((par->row)/3)+((par->column)/3)] = (flag == 0)? 0 : 1;
 	}
-
 }
 
 void *validate_cols(void *args)
