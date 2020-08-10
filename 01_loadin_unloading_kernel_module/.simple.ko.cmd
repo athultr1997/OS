@@ -1,1 +1,0 @@
-cmd_/home/athultr/OS/01_loadin_unloading/simple.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000 -T ./scripts/module-common.lds  --build-id  -o /home/athultr/OS/01_loadin_unloading/simple.ko /home/athultr/OS/01_loadin_unloading/simple.o /home/athultr/OS/01_loadin_unloading/simple.mod.o ;  true
